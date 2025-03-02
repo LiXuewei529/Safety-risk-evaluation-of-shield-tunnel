@@ -1,0 +1,94 @@
+﻿node {
+  diameter: 110px;
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  border-width: 1px;
+  text-color-internal: #FFFFFF;
+  font-size: 12px;
+  caption: "<id>";
+}
+relationship {
+  color: #A5ABB6;
+  shaft-width: 1px;
+  font-size: 11px;
+  padding: 3px;
+  text-color-external: #000000;
+  text-color-internal: #FFFFFF;
+  caption: "<probability>";
+}
+node.* {
+  color: #C990C0;
+  border-color: #b261a5;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+}
+node.SafetyCulture {
+  caption: "{name}";
+}
+node.SafetyManagementSystem {
+  color: #FFC454;
+  border-color: #d7a013;
+  text-color-internal: #604A0E;
+  caption: "{name}";
+}
+node.HabitualBehaviors {
+  caption: "{name}";
+}
+node.One-timebehaviorandphysicalconditions {
+  color: #DA7194;
+  border-color: #cc3c6c;
+  text-color-internal: #FFFFFF;
+  caption: "{name}";
+}
+node.AccidentType {
+  color: #569480;
+  border-color: #447666;
+  text-color-internal: #FFFFFF;
+  caption: "{name}";
+}
+node.Category {
+  color: #ECB5C9;
+  border-color: #da7298;
+  text-color-internal: #604A0E;
+  caption: "{name}";
+}
+node.Entity {
+  color: #4C8EDA;
+  border-color: #2870c2;
+  text-color-internal: #FFFFFF;
+  caption: "{name}";
+}
+relationship.RELATED_TO {
+  caption: "{weight}";
+  shaft-width: 1px;
+}
+node.Safety Culture {
+  color: #ECB5C9;
+  border-color: #da7298;
+  text-color-internal: #604A0E;
+  caption: "{name}";
+}
+node.Habitual Behaviors {
+  color: #4C8EDA;
+  border-color: #2870c2;
+  text-color-internal: #FFFFFF;
+  caption: "{name}";
+}
+node.Safety Management System {
+  color: #FFC454;
+  border-color: #d7a013;
+  text-color-internal: #604A0E;
+  caption: "{name}";
+}
+node.One-time behavior and physical conditions {
+  color: #DA7194;
+  border-color: #cc3c6c;
+  text-color-internal: #FFFFFF;
+  caption: "{name}";
+}
+node.Accident Type {
+  color: #569480;
+  border-color: #447666;
+  text-color-internal: #FFFFFF;
+  caption: "{name}";
+}

@@ -1,0 +1,170 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 1000px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#ffdce8", "id": "Inadequate safety training and education", "label": "Inadequate\nsafety\ntraining\nand\neducation", "shape": "dot", "size": 25, "title": "Inadequate safety training and education"}, {"color": "#ffdce8", "id": "Weak safety awareness", "label": "Weak\nsafety\nawareness", "shape": "dot", "size": 25, "title": "Weak safety awareness"}, {"color": "#ffdce8", "id": "Poor communication", "label": "Poor\ncommunication", "shape": "dot", "size": 25, "title": "Poor communication"}, {"color": "#ffdce8", "id": "Inexperienced workforce", "label": "Inexperienced\nworkforce", "shape": "dot", "size": 25, "title": "Inexperienced workforce"}, {"color": "#bcd6eb", "id": "Poor shield equipment management", "label": "Poor\nshield\nequipment\nmanagement", "shape": "dot", "size": 25, "title": "Poor shield equipment management"}, {"color": "#bcd6eb", "id": "Support structures not reinforced in time", "label": "Support\nstructures\nnot\nreinforced\nin\ntime", "shape": "dot", "size": 25, "title": "Support structures not reinforced in time"}, {"color": "#bcd6eb", "id": "Incomplete safety management system", "label": "Incomplete\nsafety\nmanagement\nsystem", "shape": "dot", "size": 25, "title": "Incomplete safety management system"}, {"color": "#bcd6eb", "id": "Superficial safety risk assessments", "label": "Superficial\nsafety\nrisk\nassessments", "shape": "dot", "size": 25, "title": "Superficial safety risk assessments"}, {"color": "#bcd6eb", "id": "Lack of regular geological surveys", "label": "Lack\nof\nregular\ngeological\nsurveys", "shape": "dot", "size": 25, "title": "Lack of regular geological surveys"}, {"color": "#bcd6eb", "id": "Insufficient hydrogeological monitoring", "label": "Insufficient\nhydrogeological\nmonitoring", "shape": "dot", "size": 25, "title": "Insufficient hydrogeological monitoring"}, {"color": "#bcd6eb", "id": "Insufficient hazard identification and maintenance", "label": "Insufficient\nhazard\nidentification\nand\nmaintenance", "shape": "dot", "size": 25, "title": "Insufficient hazard identification and maintenance"}, {"color": "#bcd6eb", "id": "Incomplete emergency response plans and mechanisms", "label": "Incomplete\nemergency\nresponse\nplans\nand\nmechanisms", "shape": "dot", "size": 25, "title": "Incomplete emergency response plans and mechanisms"}, {"color": "#f6bdc9", "id": "Violation of construction specifications", "label": "Violation\nof\nconstruction\nspecifications", "shape": "dot", "size": 25, "title": "Violation of construction specifications"}, {"color": "#c0dbce", "id": "Local ground instability", "label": "Local\nground\ninstability", "shape": "dot", "size": 25, "title": "Local ground instability"}, {"color": "#c0dbce", "id": "Insufficient bearing capacity of support structures", "label": "Insufficient\nbearing\ncapacity\nof\nsupport\nstructures", "shape": "dot", "size": 25, "title": "Insufficient bearing capacity of support structures"}, {"color": "#c0dbce", "id": "Design defects in support structures", "label": "Design\ndefects\nin\nsupport\nstructures", "shape": "dot", "size": 25, "title": "Design defects in support structures"}, {"color": "#c0dbce", "id": "Inaccurate geological condition assessments", "label": "Inaccurate\ngeological\ncondition\nassessments", "shape": "dot", "size": 25, "title": "Inaccurate geological condition assessments"}, {"color": "#c0dbce", "id": "Increased pressure at tunnel face", "label": "Increased\npressure\nat\ntunnel\nface", "shape": "dot", "size": 25, "title": "Increased pressure at tunnel face"}, {"color": "#c0dbce", "id": "Severe damage to support systems", "label": "Severe\ndamage\nto\nsupport\nsystems", "shape": "dot", "size": 25, "title": "Severe damage to support systems"}, {"color": "#c0dbce", "id": "Increased pressure on tunnel walls", "label": "Increased\npressure\non\ntunnel\nwalls", "shape": "dot", "size": 25, "title": "Increased pressure on tunnel walls"}, {"color": "#c0dbce", "id": "Substandard support material quality", "label": "Substandard\nsupport\nmaterial\nquality", "shape": "dot", "size": 25, "title": "Substandard support material quality"}, {"color": "#c0dbce", "id": "Support structure design defects", "label": "Support\nstructure\ndesign\ndefects", "shape": "dot", "size": 25, "title": "Support structure design defects"}, {"color": "red", "id": "Shield tunnel collapse", "label": "Shield\ntunnel\ncollapse", "shape": "dot", "size": 25, "title": "Shield tunnel collapse"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "font": {"size": 8}, "from": "Inadequate safety training and education", "label": "0.35", "to": "Weak safety awareness", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Inadequate safety training and education", "label": "0.33", "to": "Poor shield equipment management", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Inadequate safety training and education", "label": "0.32", "to": "Inexperienced workforce", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Weak safety awareness", "label": "1.00", "to": "Violation of construction specifications", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Poor communication", "label": "1.00", "to": "Insufficient hazard identification and maintenance", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Inexperienced workforce", "label": "0.50", "to": "Violation of construction specifications", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Inexperienced workforce", "label": "0.50", "to": "Poor shield equipment management", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Poor shield equipment management", "label": "1.00", "to": "Insufficient bearing capacity of support structures", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Support structures not reinforced in time", "label": "0.49", "to": "Shield tunnel collapse", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Support structures not reinforced in time", "label": "0.51", "to": "Local ground instability", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Incomplete safety management system", "label": "0.24", "to": "Superficial safety risk assessments", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Incomplete safety management system", "label": "0.23", "to": "Lack of regular geological surveys", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Incomplete safety management system", "label": "0.25", "to": "Insufficient hydrogeological monitoring", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Incomplete safety management system", "label": "0.27", "to": "Substandard support material quality", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Superficial safety risk assessments", "label": "0.33", "to": "Design defects in support structures", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Superficial safety risk assessments", "label": "0.33", "to": "Insufficient hazard identification and maintenance", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Superficial safety risk assessments", "label": "0.34", "to": "Support structures not reinforced in time", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Lack of regular geological surveys", "label": "1.00", "to": "Inaccurate geological condition assessments", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Insufficient hydrogeological monitoring", "label": "1.00", "to": "Inaccurate geological condition assessments", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Insufficient hazard identification and maintenance", "label": "1.00", "to": "Support structures not reinforced in time", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Incomplete emergency response plans and mechanisms", "label": "1.00", "to": "Shield tunnel collapse", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Violation of construction specifications", "label": "0.51", "to": "Insufficient bearing capacity of support structures", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Violation of construction specifications", "label": "0.49", "to": "Support structures not reinforced in time", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Local ground instability", "label": "1.00", "to": "Insufficient bearing capacity of support structures", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Insufficient bearing capacity of support structures", "label": "1.00", "to": "Shield tunnel collapse", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Design defects in support structures", "label": "1.00", "to": "Insufficient bearing capacity of support structures", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Inaccurate geological condition assessments", "label": "0.48", "to": "Insufficient bearing capacity of support structures", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Inaccurate geological condition assessments", "label": "0.52", "to": "Local ground instability", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Increased pressure at tunnel face", "label": "1.00", "to": "Severe damage to support systems", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Severe damage to support systems", "label": "1.00", "to": "Shield tunnel collapse", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Increased pressure on tunnel walls", "label": "1.00", "to": "Insufficient bearing capacity of support structures", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Substandard support material quality", "label": "1.00", "to": "Insufficient bearing capacity of support structures", "value": 2, "width": 2}, {"arrows": "to", "font": {"size": 8}, "from": "Support structure design defects", "label": "1.00", "to": "Insufficient bearing capacity of support structures", "value": 2, "width": 2}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
