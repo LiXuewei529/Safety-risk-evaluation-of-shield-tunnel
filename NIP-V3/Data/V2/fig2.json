@@ -1,0 +1,248 @@
+{
+  "Safety Culture": {
+    "Inadequate safety training and education": [
+      {
+        "entity": "Weak safety awareness",
+        "weight": 0.1042
+      },
+      {
+        "entity": "Poor shield equipment management",
+        "weight": 0.1321
+      },
+      {
+        "entity": "Inexperienced workforce",
+        "weight": 0.2237
+      }
+    ],
+    "Inexperienced workforce": [
+      {
+        "entity": "Lack of regular geological surveys",
+        "weight": 0.0141
+      },
+      {
+        "entity": "Poor shield equipment management",
+        "weight": 0.0933
+      }
+    ],
+    "Poor communication": [
+      {
+        "entity": "Insufficient hazard identification and maintenance",
+        "weight": 0.0041
+      }
+    ],
+    "Weak safety awareness": [
+      {
+        "entity": "Insufficient hazard identification and maintenance",
+        "weight": 0.3035
+      }
+    ]
+  },
+  "Safety Management System": {
+    "Insufficient hydrogeological monitoring": [
+      {
+        "entity": "Insufficient bearing capacity of support structures",
+        "weight": 0.2038
+      },
+      {
+        "entity": "Inaccurate geological condition assessments",
+        "weight": 1
+      }
+    ],
+    "Insufficient hazard identification and maintenance": [
+      {
+        "entity": "Insufficient bearing capacity of support structures",
+        "weight": 0.2038
+      },
+      {
+        "entity": "Lack of real-time monitoring of support structures",
+        "weight": 0.0076
+      }
+    ],
+    "Superficial safety risk assessments": [
+      {
+        "entity": "Design defects in support structures",
+        "weight": 0.1532
+      },
+      {
+        "entity": "Insufficient hazard identification and maintenance",
+        "weight": 0.2276
+      }
+    ],
+    "Lack of real-time monitoring of support structures": [
+      {
+        "entity": "Insufficient bearing capacity of support structures",
+        "weight": 0.1572
+      }
+    ],
+    "Poor shield equipment management": [
+      {
+        "entity": "Insufficient bearing capacity of support structures",
+        "weight": 0.0008
+      }
+    ],
+    "Lack of regular geological surveys": [
+      {
+        "entity": "Inaccurate geological condition assessments",
+        "weight": 0.1565
+      },
+      {
+        "entity": "Insufficient bearing capacity of support structures",
+        "weight": 0.0306
+      }
+    ],
+    "Lack of regular geological survey": [
+      {
+        "entity": "Inaccurate geological condition assessments",
+        "weight": 1
+      }
+    ],
+    "Incomplete emergency response plans and mechanisms": [
+      {
+        "entity": "Tunnel Collapse",
+        "weight": 0.0005
+      }
+    ],
+    "Incomplete safety management system": [
+      {
+        "entity": "Superficial safety risk assessments",
+        "weight": 0.0543
+      },
+      {
+        "entity": "Lack of regular geological surveys",
+        "weight": 0.3332
+      },
+      {
+        "entity": "Insufficient hydrogeological monitoring",
+        "weight": 0.3876
+      },
+      {
+        "entity": "Substandard support material quality",
+        "weight": 0.1332
+      }
+    ]
+  },
+  "Habitual Behaviors": {
+    "Superficial safety inspections": [
+      {
+        "entity": "Substandard support material quality",
+        "weight": 0.2132
+      },
+      {
+        "entity": "Inaccurate geological condition assessments",
+        "weight": 0.0876
+      },
+      {
+        "entity": "Failure to recognize high-stress zones",
+        "weight": 0.3349
+      },
+      {
+        "entity": "Lack of real-time monitoring of support structures",
+        "weight": 0.2763
+      },
+      {
+        "entity": "Insufficient hazard identification and maintenance",
+        "weight": 0.3063
+      }
+    ],
+    "High project time pressure": [
+      {
+        "entity": "Insufficient hazard identification and maintenance",
+        "weight": 0.1132
+      },
+      {
+        "entity": "Lack of real-time monitoring of support structures",
+        "weight": 0.0875
+      },
+      {
+        "entity": "Lack of regular geological surveys",
+        "weight": 0.3149
+      },
+      {
+        "entity": "Superficial safety risk assessments",
+        "weight": 0.2748
+      }
+    ],
+    "Inadequate decision-making": [
+      {
+        "entity": "Design defects in support structures",
+        "weight": 0.1002
+      }
+    ],
+    "Failure to recognize high-stress zones": [
+      {
+        "entity": "Design defects in support structures",
+        "weight": 0.0257
+      }
+    ]
+  },
+  "One-time behavior and physical conditions": {
+    "Insufficient bearing capacity of support structures": [
+      {
+        "entity": "Tunnel Collapse",
+        "weight": 0.3342
+      },
+      {
+        "entity": "Increased pressure at tunnel face",
+        "weight": 0.4237
+      }
+    ],
+    "Inaccurate geological condition assessments": [
+      {
+        "entity": "Insufficient bearing capacity of support structures",
+        "weight": 0.0147
+      },
+      {
+        "entity": "Local ground instability",
+        "weight": 0.0264
+      },
+      {
+        "entity": "Tunnel Collapse",
+        "weight": 0.0044
+      },
+      {
+        "entity": "Design defects in support structures",
+        "weight": 1
+      }
+    ],
+    "Increased pressure at tunnel face": [
+      {
+        "entity": "Severe damage to support systems",
+        "weight": 0.1236
+      }
+    ],
+    "Local ground instability": [
+      {
+        "entity": "Tunnel Collapse",
+        "weight": 0.1342
+      }
+    ],
+    "Severe damage to support systems": [
+      {
+        "entity": "Tunnel Collapse",
+        "weight": 1
+      }
+    ],
+    "Increased pressure on tunnel walls": [
+      {
+        "entity": "Insufficient bearing capacity of support structures",
+        "weight": 0.1096
+      }
+    ],
+    "Substandard support material quality": [
+      {
+        "entity": "Insufficient bearing capacity of support structures",
+        "weight": 0.2037
+      }
+    ],
+    "Design defects in support structures": [
+      {
+        "entity": "Insufficient bearing capacity of support structures",
+        "weight": 1
+      }
+    ]
+  },
+  "Accident type": {
+    "Tunnel Collapse": [
+    ]
+  }
+}

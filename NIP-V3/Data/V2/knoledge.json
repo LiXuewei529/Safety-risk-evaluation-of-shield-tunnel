@@ -1,0 +1,323 @@
+{
+	"Safety Culture": {
+
+        "Weak safety culture": [
+	       {
+                "entity": "Inadequate safety training and education",
+		        "weight": 1
+           },
+	       {
+                "entity": "Insufficient equipment maintenance",
+		        "weight": 1
+           },
+	       {
+                "entity": "Weak safety awareness",
+		        "weight": 1
+           }
+        ],
+
+        "Weak safety awareness": [
+
+        ],
+
+        "Inadequate safety training and education": [
+	       {
+                "entity": "Weak safety awareness",
+		        "weight": 1
+           }
+
+        ],
+
+        "Inexperienced workforce": [
+
+        ],
+
+        "Poor communication": [
+
+        ],
+
+        "Inadequate skills of maintenance personnel": [
+
+        ],
+
+        "Unclear safety responsibilities": [
+
+        ],
+
+        "Ignoring lessons from past incidents": [
+
+        ],
+
+        "Insufficient safety promotion": [
+
+        ]},
+
+	"Safety Management System": {
+
+        "Incomplete safety management system": [
+
+        ],
+
+        "Superficial safety risk assessments": [
+
+        ],
+
+        "Lack of regular geological surveys": [
+
+        ],
+
+        "Insufficient hazard identification and maintenance": [
+
+        ],
+
+        "Lack of real-time monitoring of support structures": [
+
+        ],
+
+        "Incomplete emergency response plans and mechanisms": [
+
+        ],
+
+        "Insufficient hydrogeological monitoring": [
+
+        ],
+
+        "Poor shield equipment management": [
+
+        ],
+
+        "Lack of effective firefighting facilities": [
+
+        ],
+
+        "Insufficient emergency response measures": [
+
+        ],
+
+        "Inadequate maintenance of firefighting equipment": [
+
+        ],
+
+        "Delayed evacuation of workers": [
+
+        ],
+
+        "High project time pressure": [
+
+        ],
+
+        "Inadequate enforcement of fire safety inspections": [
+
+        ],
+
+        "Fire alarm system did not activate in time": [
+
+        ]},
+
+	"Habitual Behaviors": {
+
+        "Failure to control fire in a timely manner": [
+
+        ],
+
+        "Insufficient equipment maintenance": [
+
+        ],
+
+        "Failure to identify seepage areas in time": [
+
+        ],
+
+        "Improper drainage system design": [
+
+        ],
+
+        "Inadequate decision-making": [
+
+        ],
+
+        "Failed construction plans": [
+
+        ],
+
+        "Superficial safety inspections": [
+
+        ],
+
+        "Inadequate vehicle safety performance checks": [
+
+        ],
+
+        "Lack of protective devices on mechanical equipment": [
+
+        ],
+
+        "Poor ventilation equipment maintenance": [
+
+        ],
+
+        "Poor ventilation system design": [
+
+        ],
+
+        "Lack of effective gas detection devices": [
+
+        ],
+
+        "Non-explosion-proof electrical equipment in tunnels": [
+
+        ],
+
+        "Poor site planning": [
+
+        ],
+
+        "Cross between high-altitude and ground-level work": [
+
+        ],
+
+        "Lack of safety isolation measures": [
+
+        ],
+
+        "Failure to recognize high-stress zones": [
+
+        ]},
+
+	"One-time behavior and physical conditions": {
+
+        "Severe damage to support systems": [
+
+        ],
+
+        "Local ground instability": [
+
+        ],
+
+        "Increased pressure on tunnel walls": [
+
+        ],
+
+        "Substandard support material quality": [
+
+        ],
+
+        "Inaccurate geological condition assessments": [
+
+        ],
+
+        "Design defects in support structures": [
+
+        ],
+
+        "Insufficient bearing capacity of support structures": [
+
+        ],
+
+        "Increased pressure at tunnel face": [
+
+        ],
+
+        "Aging equipment": [
+
+        ],
+
+        "Equipment operational failure": [
+
+        ],
+
+        "Electrical short circuit and fire": [
+
+        ],
+
+        "Fire spread": [
+
+        ],
+
+        "Failed firefighting equipment": [
+
+        ],
+
+        "Aging electrical cable insulation": [
+
+        ],
+
+        "Groundwater inflow into the tunnel": [
+
+        ],
+
+        "Complex geological conditions": [
+
+        ],
+
+        "Overheated electrical cables": [
+
+        ],
+
+        "Tunnel exhaust system failure": [
+
+        ],
+
+        "Dense smoke in the tunnel": [
+
+        ],
+
+        "Overloaded electrical circuits": [
+
+        ],
+
+        "Aging drainage equipment": [
+
+        ],
+
+        "Electrical circuit failure": [
+
+        ],
+
+        "Corroded pipelines": [
+
+        ],
+
+        "Insufficient drainage system capacity": [
+
+        ]},
+
+	"Accident type": {
+
+        "Tunnel Collapse": [
+
+        ],
+
+        "Fire": [
+
+        ],
+
+        "Water and Mud Irush": [
+
+        ],
+
+        "Vehicle Injury": [
+
+        ],
+
+        "Mechanical Injury": [
+
+        ],
+
+        "Poisoning Choke": [
+
+        ],
+
+        "Explosion": [
+
+        ],
+
+        "Struck by object": [
+
+        ],
+
+        "Rock burst": [
+
+        ]}
+
+}

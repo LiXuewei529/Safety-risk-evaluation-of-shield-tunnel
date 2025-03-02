@@ -1,0 +1,1410 @@
+{
+  "Safety Culture": {
+    "Weak safety culture": [
+      {
+        "entity": "Inadequate safety training and education",
+        "weight": 0.3241
+      },
+      {
+        "entity": "Insufficient equipment maintenance",
+        "weight": 0.2679
+      },
+      {
+        "entity": "Weak safety awareness",
+        "weight": 0.0761
+      },
+      {
+        "entity": "Insufficient safety promotion",
+        "weight": 0.0021
+      },
+      {
+        "entity": "Incomplete safety management system",
+        "weight": 0.6721
+      },
+      {
+        "entity": "Incomplete emergency response plans and mechanisms",
+        "weight": 0.3216
+      },
+      {
+        "entity": "Superficial safety inspections",
+        "weight": 0.0032
+      },
+      {
+        "entity": "Lack of safety isolation measures",
+        "weight": 0.1238
+      }
+    ],
+    "Weak safety awareness": [
+      {
+        "entity": "Lack of regular geological surveys",
+        "weight": 0.7781
+      },
+      {
+        "entity": "Failure to recognize high-stress zones",
+        "weight": 0.0921
+      },
+      {
+        "entity": "Violation of construction specifications",
+        "weight": 0.1127
+      },
+      {
+        "entity": "Using non-compliant equipment",
+        "weight": 0.2216
+      },
+      {
+        "entity": "Improper use of protective equipment",
+        "weight": 0.0123
+      }
+    ],
+    "Inadequate safety training and education": [
+      {
+        "entity": "Weak safety awareness",
+        "weight": 0.0321
+      },
+      {
+        "entity": "Poor shield equipment management",
+        "weight": 0.3218
+      },
+      {
+        "entity": "Poor shield equipment management",
+        "weight": 0.0331
+      },
+      {
+        "entity": "Ignoring the risk of rock burst in tunnels",
+        "weight": 0.3312
+      },
+      {
+        "entity": "Inadequate skills of maintenance personnel",
+        "weight": 0.0076
+      },
+      {
+        "entity": "Insufficient hazard identification and maintenance",
+        "weight": 0.0127
+      },
+      {
+        "entity": "Poor shield equipment management",
+        "weight": 0.3321
+      },
+      {
+        "entity": "Failure to identify seepage areas in time",
+        "weight": 0.3378
+      },
+      {
+        "entity": "Inadequate vehicle safety performance checks",
+        "weight": 0.5512
+      },
+      {
+        "entity": "Violation of construction specifications",
+        "weight": 0.0752
+      },
+      {
+        "entity": "Improper use of protective equipment",
+        "weight": 0.0322
+      }
+    ],
+    "Inexperienced workforce": [
+      {
+        "entity": "Poor shield equipment management",
+        "weight": 0.0012
+      },
+      {
+        "entity": "Violation of construction specifications",
+        "weight": 0.4421
+      },
+      {
+        "entity": "Improper use of protective equipment",
+        "weight": 0.4124
+      },
+      {
+        "entity": "Failure to recognize high-stress zones",
+        "weight": 0.3467
+      },
+      {
+        "entity": "Design defects in support structures",
+        "weight": 0.1258
+      },
+      {
+        "entity": "Equipment operational failure",
+        "weight": 0.4478
+      },
+      {
+        "entity": "Lack of effective firefighting facilities",
+        "weight": 0.1123
+      },
+      {
+        "entity": "Inadequate maintenance of firefighting equipment",
+        "weight": 0.0098
+      }
+    ],
+    "Poor communication": [
+      {
+        "entity": "Insufficient hazard identification and maintenance",
+        "weight": 0.1123
+      },
+      {
+        "entity": "Unclear safety responsibilities",
+        "weight": 0.2589
+      },
+      {
+        "entity": "Delayed evacuation of workers",
+        "weight": 0.0567
+      },
+      {
+        "entity": "Failure to control fire in a timely manner",
+        "weight": 0.1987
+      },
+      {
+        "entity": "Inadequate decision-making",
+        "weight": 0.2208
+      },
+      {
+        "entity": "Cross between high-altitude and ground-level work",
+        "weight": 0.2671
+      }
+    ],
+    "Inadequate skills of maintenance personnel": [
+      {
+        "entity": "Mechanical Injury",
+        "weight": 0.1198
+      },
+      {
+        "entity": "Insufficient hazard identification and maintenance",
+        "weight": 0.1987
+      },
+      {
+        "entity": "Poor shield equipment management",
+        "weight": 0.3781
+      },
+      {
+        "entity": "Inadequate maintenance of firefighting equipment",
+        "weight": 0.3365
+      },
+      {
+        "entity": "Insufficient equipment maintenance",
+        "weight": 0.0981
+      },
+      {
+        "entity": "Inadequate vehicle safety performance checks",
+        "weight": 0.1125
+      },
+      {
+        "entity": "Poor ventilation equipment maintenance",
+        "weight": 0.7651
+      }
+    ],
+    "Unclear safety responsibilities": [
+      {
+        "entity": "Superficial safety risk assessments",
+        "weight": 0.2251
+      },
+      {
+        "entity": "Insufficient hazard identification and maintenance",
+        "weight": 0.5712
+      },
+      {
+        "entity": "Lack of real-time monitoring of support structures",
+        "weight": 0.0098
+      },
+      {
+        "entity": "Insufficient hydrogeological monitoring",
+        "weight": 0.1265
+      },
+      {
+        "entity": "Delayed evacuation of workers",
+        "weight": 0.6654
+      },
+      {
+        "entity": "Superficial safety inspections",
+        "weight": 0.5212
+      },
+      {
+        "entity": "Superficial safety inspections",
+        "weight": 0.3321
+      }
+    ],
+    "Ignoring lessons from past incidents": [
+      {
+        "entity": "Inadequate safety training and education",
+        "weight": 0.0765
+      },
+      {
+        "entity": "Inexperienced workforce",
+        "weight": 0.0087
+      },
+      {
+        "entity": "Insufficient hazard identification and maintenance",
+        "weight": 0.1123
+      },
+      {
+        "entity": "Incomplete emergency response plans and mechanisms",
+        "weight": 0.3321
+      },
+      {
+        "entity": "Improper drainage system design",
+        "weight": 0.0621
+      },
+      {
+        "entity": "Inadequate decision-making",
+        "weight": 0.0874
+      },
+      {
+        "entity": "Failed construction plans",
+        "weight": 0.3325
+      },
+      {
+        "entity": "Poor ventilation system design",
+        "weight": 0.0814
+      },
+      {
+        "entity": "Poor site planning",
+        "weight": 0.0659
+      }
+    ],
+    "Insufficient safety promotion": [
+      {
+        "entity": "Weak safety awareness",
+        "weight": 0.2135
+      },
+      {
+        "entity": "Superficial safety risk assessments",
+        "weight": 0.2215
+      },
+      {
+        "entity": "Poor communication",
+        "weight": 0.0543
+      },
+      {
+        "entity": "Unclear safety responsibilities",
+        "weight": 0.5561
+      },
+      {
+        "entity": "Ignoring lessons from past incidents",
+        "weight": 0.0443
+      },
+      {
+        "entity": "Inadequate enforcement of fire safety inspections",
+        "weight": 0.0098
+      },
+      {
+        "entity": "Lack of safety isolation measures",
+        "weight": 0.2165
+      },
+      {
+        "entity": "Using non-compliant equipment",
+        "weight": 0.3367
+      }
+    ]
+  },
+  "Safety Management System": {
+    "Violation of construction specifications": [
+      {
+        "entity": "Insufficient bearing capacity of support structures",
+        "weight": 0.7212
+      },
+      {
+        "entity": "Lack of real-time monitoring of support structures",
+        "weight": 0.5723
+      },
+      {
+        "entity": "Support structures not reinforced in time",
+        "weight": 0.4530
+      }
+    ],
+    "Ignoring the risk of rock burst in tunnels": [
+      {
+        "entity": "Rock burst",
+        "weight": 0.6202
+      }
+    ],
+    "Using non-compliant equipment": [
+      {
+        "entity": "Fire",
+        "weight": 0.4712
+      }
+    ],
+    "Support structures not reinforced in time": [
+      {
+        "entity": "Tunnel Collapse",
+        "weight": 0.3722
+      },
+      {
+        "entity": "Local ground instability",
+        "weight": 0.3712
+      },
+      {
+        "entity": "Groundwater inflow into the tunnel",
+        "weight": 0.0812
+      }
+    ],
+    "Incomplete safety management system": [
+      {
+        "entity": "Superficial safety risk assessments",
+        "weight": 0.4538
+      },
+      {
+        "entity": "Lack of regular geological surveys",
+        "weight": 0.3276
+      },
+      {
+        "entity": "Insufficient hydrogeological monitoring",
+        "weight": 0.0321
+      },
+      {
+        "entity": "Inadequate maintenance of firefighting equipment",
+        "weight": 0.1657
+      },
+      {
+        "entity": "Superficial safety inspections",
+        "weight": 0.0302
+      },
+      {
+        "entity": "Poor ventilation system design",
+        "weight": 0.3319
+      },
+      {
+        "entity": "Unclear safety responsibilities",
+        "weight": 0.0432
+      },
+      {
+        "entity": "Incomplete emergency response plans and mechanisms",
+        "weight": 0.0178
+      },
+      {
+        "entity": "Poor shield equipment management",
+        "weight": 0.0987
+      },
+      {
+        "entity": "Insufficient emergency response measures",
+        "weight": 0.3456
+      }
+    ],
+    "Superficial safety risk assessments": [
+      {
+        "entity": "Design defects in support structures",
+        "weight": 0.0041
+      },
+      {
+        "entity": "Insufficient hazard identification and maintenance",
+        "weight": 0.0173
+      },
+      {
+        "entity": "Support structures not reinforced in time",
+        "weight": 0.2634
+      },
+      {
+        "entity": "Delayed evacuation of workers",
+        "weight": 0.1109
+      },
+      {
+        "entity": "Failure to control fire in a timely manner",
+        "weight": 0.5624
+      },
+      {
+        "entity": "Failure to identify seepage areas in time",
+        "weight": 0.6421
+      },
+      {
+        "entity": "Inadequate decision-making",
+        "weight": 0.0876
+      },
+      {
+        "entity": "Poor ventilation equipment maintenance",
+        "weight": 0.0541
+      },
+      {
+        "entity": "Failure to recognize high-stress zones",
+        "weight": 0.4517
+      },
+      {
+        "entity": "Inaccurate geological condition assessments",
+        "weight": 0.0709
+      }
+    ],
+    "Lack of regular geological surveys": [
+      {
+        "entity": "Inaccurate geological condition assessments",
+        "weight": 0.4671
+      },
+      {
+        "entity": "Support structures not reinforced in time",
+        "weight": 0.0421
+      },
+      {
+        "entity": "Failure to identify seepage areas in time",
+        "weight": 0.0671
+      },
+      {
+        "entity": "Inadequate decision-making",
+        "weight": 0.0062
+      },
+      {
+        "entity": "Failure to recognize high-stress zones",
+        "weight": 0.0012
+      },
+      {
+        "entity": "Insufficient bearing capacity of support structures",
+        "weight": 0.1126
+      },
+      {
+        "entity": "Increased pressure at tunnel face",
+        "weight": 0.0712
+      }
+    ],
+    "Insufficient hazard identification and maintenance": [
+      {
+        "entity": "Lack of real-time monitoring of support structures",
+        "weight": 0.0045
+      },
+      {
+        "entity": "Mechanical Injury",
+        "weight": 0.0873
+      },
+      {
+        "entity": "Poor shield equipment management",
+        "weight": 0.1189
+      },
+      {
+        "entity": "Inadequate maintenance of firefighting equipment",
+        "weight": 0.1872
+      },
+      {
+        "entity": "Support structures not reinforced in time",
+        "weight": 0.3214
+      },
+      {
+        "entity": "Fire alarm system did not activate in time",
+        "weight": 0.5638
+      },
+      {
+        "entity": "Failure to identify seepage areas in time",
+        "weight": 0.0042
+      },
+      {
+        "entity": "Inadequate decision-making",
+        "weight": 0.0198
+      },
+      {
+        "entity": "Poor ventilation equipment maintenance",
+        "weight": 0.0568
+      },
+      {
+        "entity": "Severe damage to support systems",
+        "weight": 0.1876
+      },
+      {
+        "entity": "Local ground instability",
+        "weight": 0.3671
+      },
+      {
+        "entity": "Substandard support material quality",
+        "weight": 0.0345
+      },
+      {
+        "entity": "Insufficient bearing capacity of support structures",
+        "weight": 0.0983
+      }
+    ],
+    "Lack of real-time monitoring of support structures": [
+      {
+        "entity": "Insufficient bearing capacity of support structures",
+        "weight": 0.0098
+      },
+      {
+        "entity": "Severe damage to support systems",
+        "weight": 0.0004
+      },
+      {
+        "entity": "Local ground instability",
+        "weight": 0.0024
+      },
+      {
+        "entity": "Tunnel Collapse",
+        "weight": 0.1547
+      }
+    ],
+    "Incomplete emergency response plans and mechanisms": [
+      {
+        "entity": "Tunnel Collapse",
+        "weight": 0.2387
+      },
+      {
+        "entity": "Fire",
+        "weight": 0.0961
+      },
+      {
+        "entity": "Vehicle Injury",
+        "weight": 0.0234
+      },
+      {
+        "entity": "Water and Mud Irush",
+        "weight": 0.0651
+      },
+      {
+        "entity": "Rock burst",
+        "weight": 0.4387
+      },
+      {
+        "entity": "Explosion",
+        "weight": 0.5612
+      },
+      {
+        "entity": "Poisoning Choke",
+        "weight": 0.3325
+      },
+      {
+        "entity": "Delayed evacuation of workers",
+        "weight": 0.3376
+      },
+      {
+        "entity": "Fire alarm system did not activate in time",
+        "weight": 0.3312
+      },
+      {
+        "entity": "Failure to control fire in a timely manner",
+        "weight": 0.4521
+      },
+      {
+        "entity": "Inadequate decision-making",
+        "weight": 0.0267
+      },
+      {
+        "entity": "Severe damage to support systems",
+        "weight": 0.0006
+      },
+      {
+        "entity": "Increased pressure on tunnel walls",
+        "weight": 0.0912
+      }
+    ],
+    "Insufficient hydrogeological monitoring": [
+      {
+        "entity": "Inaccurate geological condition assessments",
+        "weight": 0.2681
+      },
+      {
+        "entity": "Failure to identify seepage areas in time",
+        "weight": 0.3322
+      },
+      {
+        "entity": "Local ground instability",
+        "weight": 0.4508
+      },
+      {
+        "entity": "Increased pressure on tunnel walls",
+        "weight": 0.3008
+      },
+      {
+        "entity": "Water and Mud Irush",
+        "weight": 0.0082
+      }
+    ],
+    "Poor shield equipment management": [
+      {
+        "entity": "Insufficient bearing capacity of support structures",
+        "weight": 0.0165
+      },
+      {
+        "entity": "Increased pressure at tunnel face",
+        "weight": 0.0532
+      },
+      {
+        "entity": "Aging equipment",
+        "weight": 0.0451
+      }
+    ],
+    "Lack of effective firefighting facilities": [
+      {
+        "entity": "Fire spread",
+        "weight": 0.1231
+      },
+      {
+        "entity": "Delayed evacuation of workers",
+        "weight": 0.0087
+      },
+      {
+        "entity": "Failure to control fire in a timely manner",
+        "weight": 0.0052
+      }
+    ],
+    "Insufficient emergency response measures": [
+      {
+        "entity": "Fire",
+        "weight": 0.0012
+      },
+      {
+        "entity": "Water and Mud Irush",
+        "weight": 0.4321
+      },
+      {
+        "entity": "Mechanical Injury",
+        "weight": 0.1237
+      },
+      {
+        "entity": "Explosion",
+        "weight": 0.0651
+      },
+      {
+        "entity": "Struck by object",
+        "weight": 0.3696
+      },
+      {
+        "entity": "Poisoning Choke",
+        "weight": 0.0081
+      }
+    ],
+    "Inadequate maintenance of firefighting equipment": [
+      {
+        "entity": "Failed firefighting equipment",
+        "weight": 0.0325
+      },
+      {
+        "entity": "Fire alarm system did not activate in time",
+        "weight": 0.3212
+      },
+      {
+        "entity": "Aging equipment",
+        "weight": 0.0098
+      }
+    ],
+    "Delayed evacuation of workers": [
+      {
+        "entity": "Fire",
+        "weight": 0.1874
+      }
+    ],
+    "High project time pressure": [
+      {
+        "entity": "Inadequate decision-making",
+        "weight": 0.0781
+      },
+      {
+        "entity": "Inadequate enforcement of fire safety inspections",
+        "weight": 0.0034
+      },
+      {
+        "entity": "Poor site planning",
+        "weight": 0.0531
+      },
+      {
+        "entity": "Ignoring lessons from past incidents",
+        "weight": 0.0332
+      },
+      {
+        "entity": "Superficial safety risk assessments",
+        "weight": 0.0043
+      },
+      {
+        "entity": "Insufficient hazard identification and maintenance",
+        "weight": 0.0021
+      },
+      {
+        "entity": "Insufficient hydrogeological monitoring",
+        "weight": 0.0089
+      },
+      {
+        "entity": "Superficial safety inspections",
+        "weight": 0.0631
+      },
+      {
+        "entity": "Cross between high-altitude and ground-level work",
+        "weight": 0.3573
+      }
+    ],
+    "Inadequate enforcement of fire safety inspections": [
+      {
+        "entity": "Electrical circuit failure",
+        "weight": 0.0054
+      },
+      {
+        "entity": "Inadequate maintenance of firefighting equipment",
+        "weight": 0.0063
+      },
+      {
+        "entity": "Insufficient equipment maintenance",
+        "weight": 0.0071
+      },
+      {
+        "entity": "Electrical short circuit and fire",
+        "weight": 0.1386
+      },
+      {
+        "entity": "Failed firefighting equipment",
+        "weight": 0.3691
+      },
+      {
+        "entity": "Aging electrical cable insulation",
+        "weight": 0.0004
+      },
+      {
+        "entity": "Overheated electrical cables",
+        "weight": 0.3801
+      },
+      {
+        "entity": "Tunnel exhaust system failure",
+        "weight": 0.2533
+      },
+      {
+        "entity": "Overloaded electrical circuits",
+        "weight": 0.1144
+      },
+      {
+        "entity": "Electrical circuit failure",
+        "weight": 0.0082
+      }
+    ],
+    "Fire alarm system did not activate in time": [
+      {
+        "entity": "Failure to control fire in a timely manner",
+        "weight": 0.0543
+      },
+      {
+        "entity": "Delayed evacuation of workers",
+        "weight": 0.3332
+      }
+    ]
+  },
+  "Habitual Behaviors": {
+    "Improper use of protective equipment": [
+      {
+        "entity": "Equipment operational failure",
+        "weight": 0.9502
+      },
+      {
+        "entity": "Poisoning Choke",
+        "weight": 0.8723
+      },
+      {
+        "entity": "Struck by object",
+        "weight": 0.9015
+      }
+    ],
+    "Failure to control fire in a timely manner": [
+      {
+        "entity": "Fire",
+        "weight": 0.1132
+      },
+      {
+        "entity": "Fire spread",
+        "weight": 0.0876
+      },
+      {
+        "entity": "Local ground instability",
+        "weight": 0.3349
+      },
+      {
+        "entity": "Dense smoke in the tunnel",
+        "weight": 0.0763
+      }
+    ],
+    "Insufficient equipment maintenance": [
+      {
+        "entity": "Aging drainage equipment",
+        "weight": 0.0023
+      },
+      {
+        "entity": "Aging equipment",
+        "weight": 0.0212
+      },
+      {
+        "entity": "Electrical short circuit and fire",
+        "weight": 0.3671
+      },
+      {
+        "entity": "Failed firefighting equipment",
+        "weight": 0.2218
+      },
+      {
+        "entity": "Aging electrical cable insulation",
+        "weight": 0.1272
+      },
+      {
+        "entity": "Electrical circuit failure",
+        "weight": 0.0365
+      },
+      {
+        "entity": "Corroded pipelines",
+        "weight": 0.2532
+      },
+      {
+        "entity": "Groundwater inflow into the tunnel",
+        "weight": 0.0096
+      },
+      {
+        "entity": "Tunnel Collapse",
+        "weight": 0.0057
+      },
+      {
+        "entity": "Local ground instability",
+        "weight": 0.0632
+      }
+    ],
+    "Failure to identify seepage areas in time": [
+      {
+        "entity": "Increased pressure on tunnel walls",
+        "weight": 0.2276
+      },
+      {
+        "entity": "Groundwater inflow into the tunnel",
+        "weight": 0.0256
+      },
+      {
+        "entity": "Water and Mud Irush",
+        "weight": 0.1196
+      }
+    ],
+    "Improper drainage system design": [
+      {
+        "entity": "Increased pressure on tunnel walls",
+        "weight": 0.3321
+      },
+      {
+        "entity": "Groundwater inflow into the tunnel",
+        "weight": 0.0038
+      }
+    ],
+    "Inadequate decision-making": [
+      {
+        "entity": "Failed construction plans",
+        "weight": 0.0311
+      },
+      {
+        "entity": "Delayed evacuation of workers",
+        "weight": 0.0542
+      },
+      {
+        "entity": "Delayed evacuation of workers",
+        "weight": 0.0009
+      },
+      {
+        "entity": "Failure to control fire in a timely manner",
+        "weight": 0.3367
+      },
+      {
+        "entity": "Severe damage to support systems",
+        "weight": 0.0043
+      },
+      {
+        "entity": "Local ground instability",
+        "weight": 0.1098
+      },
+      {
+        "entity": "Increased pressure on tunnel walls",
+        "weight": 0.0193
+      },
+      {
+        "entity": "Increased pressure at tunnel face",
+        "weight": 0.3307
+      },
+      {
+        "entity": "Groundwater inflow into the tunnel",
+        "weight": 0.0305
+      }
+    ],
+    "Failed construction plans": [
+      {
+        "entity": "Design defects in support structures",
+        "weight": 0.3321
+      },
+      {
+        "entity": "Poor ventilation system design",
+        "weight": 0.0902
+      }
+    ],
+    "Superficial safety inspections": [
+      {
+        "entity": "Insufficient hazard identification and maintenance",
+        "weight": 0.0872
+      },
+      {
+        "entity": "Inadequate vehicle safety performance checks",
+        "weight": 0.3265
+      },
+      {
+        "entity": "Inadequate vehicle safety performance checks",
+        "weight": 0.2591
+      },
+      {
+        "entity": "Inadequate maintenance of firefighting equipment",
+        "weight": 0.0024
+      },
+      {
+        "entity": "Support structures not reinforced in time",
+        "weight": 0.0012
+      },
+      {
+        "entity": "Insufficient equipment maintenance",
+        "weight": 0.0004
+      },
+      {
+        "entity": "Failure to identify seepage areas in time",
+        "weight": 0.0031
+      },
+      {
+        "entity": "Inadequate vehicle safety performance checks",
+        "weight": 0.1265
+      },
+      {
+        "entity": "Lack of safety isolation measures",
+        "weight": 0.2229
+      },
+      {
+        "entity": "Improper use of protective equipment",
+        "weight": 0.2387
+      },
+      {
+        "entity": "Ignoring the risk of rock burst in tunnels",
+        "weight": 0.3076
+      },
+      {
+        "entity": "Failure to recognize high-stress zones",
+        "weight": 0.2341
+      },
+      {
+        "entity": "Substandard support material quality",
+        "weight": 0.007
+      },
+      {
+        "entity": "Aging equipment",
+        "weight": 0.1012
+      }
+    ],
+    "Inadequate vehicle safety performance checks": [
+      {
+        "entity": "Vehicle Injury",
+        "weight": 0.2235
+      },
+      {
+        "entity": "Insufficient equipment maintenance",
+        "weight": 0.0913
+      }
+    ],
+    "Lack of protective devices on mechanical equipment": [
+      {
+        "entity": "Mechanical Injury",
+        "weight": 0.3321
+      }
+    ],
+    "Poor ventilation equipment maintenance": [
+      {
+        "entity": "Dense smoke in the tunnel",
+        "weight": 0.0087
+      },
+      {
+        "entity": "Poisoning Choke",
+        "weight": 0.0931
+      }
+    ],
+    "Poor ventilation system design": [
+      {
+        "entity": "Dense smoke in the tunnel",
+        "weight": 0.0032
+      },
+      {
+        "entity": "Poisoning Choke",
+        "weight": 0.2398
+      }
+    ],
+    "Lack of effective gas detection devices": [
+      {
+        "entity": "Poisoning Choke",
+        "weight": 0.0062
+      },
+      {
+        "entity": "Explosion",
+        "weight": 0.0046
+      }
+    ],
+    "Non-explosion-proof electrical equipment in tunnels": [
+      {
+        "entity": "Poisoning Choke",
+        "weight": 0.0215
+      }
+    ],
+    "Poor site planning": [
+      {
+        "entity": "Cross between high-altitude and ground-level work",
+        "weight": 0.3321
+      },
+      {
+        "entity": "Lack of safety isolation measures",
+        "weight": 0.0763
+      },
+      {
+        "entity": "Vehicle Injury",
+        "weight": 0.0042
+      },
+      {
+        "entity": "Mechanical Injury",
+        "weight": 0.005
+      }
+    ],
+    "Cross between high-altitude and ground-level work": [
+      {
+        "entity": "Struck by object",
+        "weight": 0.3329
+      }
+    ],
+    "Lack of safety isolation measures": [
+      {
+        "entity": "Struck by object",
+        "weight": 0.0407
+      }
+    ],
+    "Failure to recognize high-stress zones": [
+      {
+        "entity": "Ignoring the risk of rock burst in tunnels",
+        "weight": 0.2238
+      }
+    ]
+  },
+  "One-time behavior and physical conditions": {
+    "Severe damage to support systems": [
+      {
+        "entity": "Tunnel Collapse",
+        "weight": 0.3342
+      }
+    ],
+    "Local ground instability": [
+      {
+        "entity": "Insufficient bearing capacity of support structures",
+        "weight": 0.2031
+      },
+      {
+        "entity": "Tunnel Collapse",
+        "weight": 0.0054
+      }
+    ],
+    "Increased pressure on tunnel walls": [
+      {
+        "entity": "Insufficient bearing capacity of support structures",
+        "weight": 0.3324
+      }
+    ],
+    "Substandard support material quality": [
+      {
+        "entity": "Insufficient bearing capacity of support structures",
+        "weight": 0.0065
+      }
+    ],
+    "Inaccurate geological condition assessments": [
+      {
+        "entity": "Insufficient bearing capacity of support structures",
+        "weight": 0.0564
+      },
+      {
+        "entity": "Local ground instability",
+        "weight": 0.2352
+      },
+      {
+        "entity": "Tunnel Collapse",
+        "weight": 0.0763
+      },
+      {
+        "entity": "Design defects in support structures",
+        "weight": 0.0917
+      }
+    ],
+    "Design defects in support structures": [
+      {
+        "entity": "Insufficient bearing capacity of support structures",
+        "weight": 0.2604
+      }
+    ],
+    "Insufficient bearing capacity of support structures": [
+      {
+        "entity": "Tunnel Collapse",
+        "weight": 0.1907
+      },
+      {
+        "entity": "Increased pressure at tunnel face",
+        "weight": 0.2591
+      }
+    ],
+    "Increased pressure at tunnel face": [
+      {
+        "entity": "Severe damage to support systems",
+        "weight": 0.0081
+      },
+      {
+        "entity": "Local ground instability",
+        "weight": 0.0024
+      },
+      {
+        "entity": "Insufficient bearing capacity of support structures",
+        "weight": 0.1127
+      }
+    ],
+    "Aging equipment": [
+      {
+        "entity": "Electrical short circuit and fire",
+        "weight": 0.0023
+      },
+      {
+        "entity": "Failed firefighting equipment",
+        "weight": 0.0041
+      },
+      {
+        "entity": "Overheated electrical cables",
+        "weight": 0.0004
+      },
+      {
+        "entity": "Tunnel exhaust system failure",
+        "weight": 0.1192
+      },
+      {
+        "entity": "Aging drainage equipment",
+        "weight": 0.0347
+      },
+      {
+        "entity": "Aging drainage equipment",
+        "weight": 0.1284
+      },
+      {
+        "entity": "Insufficient drainage system capacity",
+        "weight": 0.0056
+      }
+    ],
+    "Equipment operational failure": [
+      {
+        "entity": "Mechanical Injury",
+        "weight": 0.2341
+      }
+    ],
+    "Electrical short circuit and fire": [
+      {
+        "entity": "Fire spread",
+        "weight": 0.0067
+      }
+    ],
+    "Fire spread": [
+      {
+        "entity": "Fire",
+        "weight": 0.4478
+      }
+    ],
+    "Failed firefighting equipment": [
+      {
+        "entity": "Overheated electrical cables",
+        "weight": 0.0032
+      },
+      {
+        "entity": "Dense smoke in the tunnel",
+        "weight": 0.0382
+      },
+      {
+        "entity": "Fire spread",
+        "weight": 0.0067
+      }
+    ],
+    "Aging electrical cable insulation": [
+      {
+        "entity": "Overheated electrical cables",
+        "weight": 0.3326
+      }
+    ],
+    "Groundwater inflow into the tunnel": [
+      {
+        "entity": "Water and Mud Irush",
+        "weight": 0.0832
+      }
+    ],
+    "Complex geological conditions": [
+      {
+        "entity": "Insufficient hydrogeological monitoring",
+        "weight": 0.0022
+      },
+      {
+        "entity": "Failure to identify seepage areas in time",
+        "weight": 0.0342
+      },
+      {
+        "entity": "Ignoring the risk of rock burst in tunnels",
+        "weight": 0.0669
+      },
+      {
+        "entity": "Failure to recognize high-stress zones",
+        "weight": 0.2213
+      },
+      {
+        "entity": "Local ground instability",
+        "weight": 0.0063
+      },
+      {
+        "entity": "Inaccurate geological condition assessments",
+        "weight": 0.0082
+      },
+      {
+        "entity": "Insufficient bearing capacity of support structures",
+        "weight": 0.1082
+      },
+      {
+        "entity": "Increased pressure at tunnel face",
+        "weight": 0.2237
+      },
+      {
+        "entity": "Tunnel Collapse",
+        "weight": 0.1093
+      },
+      {
+        "entity": "Water and Mud Irush",
+        "weight": 0.0031
+      },
+      {
+        "entity": "Rock burst",
+        "weight": 0.0043
+      }
+    ],
+    "Overheated electrical cables": [
+      {
+        "entity": "Dense smoke in the tunnel",
+        "weight": 0.0047
+      },
+      {
+        "entity": "Failed firefighting equipment",
+        "weight": 0.1112
+      },
+      {
+        "entity": "Failed firefighting equipment",
+        "weight": 0.2029
+      }
+    ],
+    "Tunnel exhaust system failure": [
+      {
+        "entity": "Dense smoke in the tunnel",
+        "weight": 0.2541
+      }
+    ],
+    "Dense smoke in the tunnel": [
+      {
+        "entity": "Poisoning Choke",
+        "weight": 0.2097
+      }
+    ],
+    "Overloaded electrical circuits": [
+      {
+        "entity": "Dense smoke in the tunnel",
+        "weight": 0.0031
+      },
+      {
+        "entity": "Electrical short circuit and fire",
+        "weight": 0.0308
+      }
+    ],
+    "Aging drainage equipment": [
+      {
+        "entity": "Insufficient drainage system capacity",
+        "weight": 0.0003
+      },
+      {
+        "entity": "Increased pressure on tunnel walls",
+        "weight": 0.5719
+      },
+      {
+        "entity": "Groundwater inflow into the tunnel",
+        "weight": 0.5412
+      }
+    ],
+    "Electrical circuit failure": [
+      {
+        "entity": "Failure to control fire in a timely manner",
+        "weight": 0.0223
+      },
+      {
+        "entity": "Electrical short circuit and fire",
+        "weight": 0.0467
+      },
+      {
+        "entity": "Overheated electrical cables",
+        "weight": 0.0984
+      },
+      {
+        "entity": "Overloaded electrical circuits",
+        "weight": 0.3376
+      }
+    ],
+    "Corroded pipelines": [
+      {
+        "entity": "Insufficient drainage system capacity",
+        "weight": 0.0214
+      }
+    ],
+    "Insufficient drainage system capacity": [
+      {
+        "entity": "Water and Mud Irush",
+        "weight": 0.2289
+      }
+    ]
+  },
+  "Accident type": {
+    "Tunnel Collapse": [
+      {
+        "entity": "Struck by object",
+        "weight": 0.2273
+      },
+      {
+        "entity": "Mechanical Injury",
+        "weight": 0.1097
+      }
+    ],
+    "Fire": [
+      {
+        "entity": "Explosion",
+        "weight": 0.0568
+      },
+      {
+        "entity": "Tunnel Collapse",
+        "weight": 0.0098
+      },
+      {
+        "entity": "Poisoning Choke",
+        "weight": 0.0043
+      }
+    ],
+    "Water and Mud Irush": [
+      {
+        "entity": "Tunnel Collapse",
+        "weight": 0.1765
+      }
+    ],
+    "Vehicle Injury": [
+    ],
+    "Mechanical Injury": [
+    ],
+    "Poisoning Choke": [
+    ],
+    "Explosion": [
+      {
+        "entity": "Tunnel Collapse",
+        "weight": 0.0568
+      },
+      {
+        "entity": "Poisoning Choke",
+        "weight": 0.1109
+      }
+    ],
+    "Struck by object": [
+    ],
+    "Rock burst": [
+      {
+        "entity": "Tunnel Collapse",
+        "weight": 0.0231
+      },
+      {
+        "entity": "Poisoning Choke",
+        "weight": 0.0073
+      },
+      {
+        "entity": "Fire",
+        "weight": 0.1152
+      },
+      {
+        "entity": "Water and Mud Irush",
+        "weight": 0.0081
+      },
+      {
+        "entity": "Explosion",
+        "weight": 0.0006
+      }
+    ]
+  }
+}
